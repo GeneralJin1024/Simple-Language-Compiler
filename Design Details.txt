@@ -1,0 +1,10 @@
+I implemented the parser in the object-oriented way: put the data and the 
+code together. Constructing a separate class for each non-terminal X. An instance of X represents a parse tree node.
+General Methods in a class including:
+parse(), print(), exec()
+
+A Parser class is responsible for static members like Scanners for code and data files.
+A Memory class simulates the function stack of the entire program. The main program is treated as a function named "program"
+Invoking functions and manipulating variables needs to go through the Memory class(i.e. calling the static method inside the Memory class)
+The Func class stores the formal parameters in its scope, a pointer to its method body(except the "program" function) and the arguments being passed into it(once invoked)
+The instance of Id class has methods to get its name, value and also assign its value.
