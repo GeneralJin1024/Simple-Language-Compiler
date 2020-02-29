@@ -1,0 +1,24 @@
+
+program int X , Y , XY 	; A(r) begin r:=0; endfunc; begin
+
+          input X, Y, XY;
+		  
+		  if !(X = Y)
+		  then
+			if X < Y
+			then
+				output 1;
+			else
+				output 2;
+			endif;
+		endif;
+		
+		
+		
+		begin A(XY);
+		
+		output XY;
+		
+		
+          end  
+      
