@@ -1,5 +1,3 @@
-Shengyu Jin (jin.1024)
-
 Files: Core.h/ Scanner.h/ Parser.h/ main.cpp/ README.txt 
        Scanner.h is the code from my last project and an extra method added. Scanner.match(token) is the method that checks the
        current token, if matching then consumes, otherwise throw "ERROR: Invalid Syntax". That is saying, missing a semicolon, a comma or
