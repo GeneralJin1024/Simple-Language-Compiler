@@ -2,7 +2,7 @@
 
 ## Language Grammar:
 
-![Grammar](https://raw.githubusercontent.com/GeneralJin1024/MarioHasToDie/master/Grammar/Language-Grammar.png)
+![Grammar](https://raw.githubusercontent.com/GeneralJin1024/Simple-Language-Compiler/master/Grammar/CORE%20Language%20Grammar.png)
 
 ## Project Structure:
 Files: Core.h/ Scanner.h/ Parser.h/ main.cpp/ README.txt   
