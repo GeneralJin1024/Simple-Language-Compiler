@@ -1,5 +1,7 @@
 # This is a compiler for CORE Language
 
+Function: Scan and parse the code snippet for CORE language and output the running result of the code
+
 ## Language Grammar:
 
 ![Grammar](https://raw.githubusercontent.com/GeneralJin1024/Simple-Language-Compiler/master/Grammar/CORE%20Language%20Grammar.png)
