@@ -20,7 +20,8 @@ Files: Core.h/ Scanner.h/ Parser.h/ main.cpp/ README.txt
 Features: Missing a semicolon, a comma or a keyword can be a syntax error and throw massages like "ERROR: You have an unmatched token", "ERROR: Invalid Syntax".
 
 ## Compile Command (workable on Linux)
-Compile command: g++ -std=c++11 main.cpp -o main
+Compile command: g++ -std=c++11 main.cpp -o main  
+
 Run command: ./main <inputFileName>
 
 The answer is printing in the command line.
